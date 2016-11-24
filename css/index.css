@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 12px;
+    color: #5f5f5f;
+    line-height: 1.8em;
+}
+
+a {
+    color: #3a90ca;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.8em;
+}
+
+h1 {
+    color: #3a90ca;
+    font-size: 30px;
+    line-height: 1.2em;
+}
+
+h2 {
+    color: #323a3f;
+}
+
+h2 span {
+    color: #3a90ca;
+}
+.main{
+    width:930px;
+    margin:0 auto;
+}
+/*头部区*/
+.header {
+    width: 100%;
+    height:80px;
+    background-image:url(../images/header_bg.gif);
+    position:relative;
+}
+.header a{
+    text-decoration:none;
+}
+
+
+.logo{
+    float:left;
+    position:absolute;
+    left:32px;
+    top:20px;
+    font-variant:small-caps;
+}
+.logo h1 a{
+    font-size:38px;
+}
+
+.menu_nav {
+    width: auto;
+    display: inline-block;
+    position:absolute;
+    right:32px;
+    top:43px;
+}
+
+.menu_nav ul {
+    background-image:url(../images/menu.gif);
+}
+
+.menu_nav ul li {
+    display: inline-block;
+    list-style:none;
+    width:auto;
+    text-align:center;
+    padding:0 9px;
+}
+.menu_nav ul li a{
+    font-size:12px;
+    line-height:3.0em;
+    color:#5f5f5f;
+}
+.menu_nav ul li:hover{
+    background:#3a90c9;
+}
+.menu_nav ul li a:hover{
+    color:#fff;
+}
+
+
+.clr{
+    clear:both;
+    padding: 0;
+    margin: 0;
+    width:100%;
+    font-size:0;
+    line-height:0;
+}
+
+/*主体内容*/
+.content{
+    margin-left:32px;
+}
+.mainbar{
+    float:left;
+    width:630px;
+}
+.article{
+    margin-top:30px;
+}
+.article p{
+    margin-top:10px;
+    letter-spacing:-0.5px;
+    word-spacing:-2px;
+}
+.article img{
+    margin-top:10px;
+    border:1px solid #b7b7b7;
+    padding:4px;
+}
+
+.sidebar{
+    float:left;
+    width:236px;
+    margin-left:20px;
+}
+.gadget{
+    margin-top:30px;
+}
+.sb-menu{
+    margin-top:10px;
+}
+.sb-menu li {
+    list-style: none;
+    padding:5px;
+}
+.sb-menu li a:hover{
+    color:#3a90ca;
+    font-weight:bold;
+}
+
+.sb-menu li a {
+    text-decoration:none;
+    color: #5f5f5f;
+}
+
+.ex-menu{
+    margin-top:10px;
+}
+
+.ex-menu li{
+    margin-top: 10px;
+    list-style: none;
+    color:#959595;
+}
+.ex-menu li a {
+    text-decoration:none;
+    color:#5f5f5f;
+}
+.ex-menu li a:hover{
+    color:#3a90ca ;
+    font-weight:bold;
+}
+
+.footer{
+  width:100%;
+    margin-top:30px;
+}
+.lf{
+    float:right;
+    margin-right:32px;
+}
+.fmenu{
+    float:left;
+    margin-left:32px;
+}
+.fmenu  li{
+    display: inline-block;
+    list-stylt:none;
+    padding:0 5px;
+}
+
+.fmenu  li a {
+    text-decoration:none;
+    color:#5f5f5f;
+}
+.fmenu li a:hover{
+    color:#3a90c9;
+}
